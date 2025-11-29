@@ -1,0 +1,16 @@
+[
+  {
+    "id": "promptvault",
+    "title": "PromptVault v1",
+    "summary": "Isolated prompts per email using localStorage namespaces.",
+    "link": "/projects/promptvault",
+    "github": "https://github.com/rachittaneja56-max/PromptVault"
+  },
+  {
+    "id": "js-playground",
+    "title": "JavaScript Playground",
+    "summary": "Interactive JS utilities and mini projects.",
+    "link": "https://javascript-playground-gray.vercel.app/",
+    "github": "https://github.com/rachittaneja56-max/Javascript-Playground.git"
+  }
+]
