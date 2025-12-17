@@ -1,16 +1,16 @@
 [
   {
-    "id": "promptvault",
     "title": "PromptVault v1",
-    "summary": "Isolated prompts per email using localStorage namespaces.",
-    "link": "/projects/promptvault",
+    "description": "A prompt management tool with per-user isolation using localStorage namespaces.",
+    "tech": ["React", "Tailwind CSS", "LocalStorage"],
+    "live": "https://prompt-vault-olive.vercel.app/",
     "github": "https://github.com/rachittaneja56-max/PromptVault"
   },
   {
-    "id": "js-playground",
     "title": "JavaScript Playground",
-    "summary": "Interactive JS utilities and mini projects.",
-    "link": "https://javascript-playground-gray.vercel.app/",
-    "github": "https://github.com/rachittaneja56-max/Javascript-Playground.git"
+    "description": "A collection of focused JavaScript mini-projects to strengthen core concepts.",
+    "tech": ["JavaScript", "HTML", "CSS"],
+    "live": "https://javascript-playground-gray.vercel.app/",
+    "github": "https://github.com/rachittaneja56-max/Javascript-Playground"
   }
 ]

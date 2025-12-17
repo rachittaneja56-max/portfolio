@@ -3,42 +3,45 @@ import profile from "../assets/Profile.jpeg";
 import resume from "../assets/resume.pdf";
 
 const Hero = () => {
-    return (
-        <section
-            id="hero"
-            className="flex flex-col items-center justify-center mt-24 px-6"
-        >
-            <div className="flex items-center gap-10">
-                <img
-                    src={profile}
-                    alt="Rachit Taneja"
-                    className="w-32 h-32 rounded-full border border-white/10 object-cover"
-                />
-                <h1 className="text-4xl mt-18 font-semibold text-white">Rachit Taneja</h1>
-            </div>
+  return (
+    <section
+      id="hero"
+      className="mt-15 flex items-center justify-center px-6"
+    >
+      <div className="flex flex-col items-center text-center max-w-xl">
 
-            <p className="text-gray-300 mt-10 text-xl  max-w-sm">
-                Aspiring full-stack engineer focused on mastering Web Development and AI.
-            </p>
+        <img
+          src={profile}
+          alt="Rachit Taneja"
+          className="w-32 h-32 rounded-full border border-white/10 object-cover"
+        />
 
-            <div className="flex gap-4 mt-4">
-                <a
-                    href={resume}
-                    target="_blank"
-                    className="px-4 py-2 bg-indigo-500 text-black text-sm font-medium rounded-lg hover:bg-indigo-400 transition"
-                >
-                    Resume
-                </a>
-                <a
-                    href="mailto:rachittaneja56@gmail.com"
-                    className="px-4 py-2 bg-gray-700 text-white text-sm font-medium rounded-lg hover:bg-gray-600 transition"
-                >
-                    Contact Me
-                </a>
+        <h1 className="text-3xl font-semibold mt-6">Rachit Taneja</h1>
 
-            </div>
-        </section>
-    );
+        <p className="text-gray-300 mt-4 text-lg leading-relaxed">
+          Aspiring full-stack engineer focused on mastering Web Development and AI.
+        </p>
+
+        <div className="flex gap-4 mt-6">
+          <a
+            href={resume}
+            target="_blank"
+            className="px-5 py-2 bg-indigo-500 text-black text-sm font-medium rounded-lg hover:bg-indigo-400 transition"
+          >
+            View Resume
+          </a>
+
+          <a
+            href="#contact"
+            className="px-5 py-2 bg-white/10 border border-white/20 text-sm rounded-lg hover:bg-white/20 transition"
+          >
+            Contact Me
+          </a>
+        </div>
+
+      </div>
+    </section>
+  );
 };
 
 export default Hero;

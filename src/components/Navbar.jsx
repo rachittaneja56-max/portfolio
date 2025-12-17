@@ -12,14 +12,14 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-6 left-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-white/10">
+    <nav className="fixed top-0  left-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-white/10">
       <div className="max-w-6xl mx-auto flex items-center justify-center relative px-6 py-3">
-        <div className="flex items-center gap-6">
-          <h1 className="text-white mr-34 text-lg font-semibold tracking-wide mr-">
+        <div className="flex items-center gap-20">
+          <h1 className="text-white mr-36 text-lg font-semibold tracking-wide mr-">
             Rachit
           </h1>
 
-          <ul className=" hidden md:flex items-center gap-6">
+          <ul className=" hidden md:flex items-center gap-10">
             {links.map((link) => (
               <li key={link.name}>
                 <a

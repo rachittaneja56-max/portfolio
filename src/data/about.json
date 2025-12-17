@@ -1,10 +1,15 @@
 {
   "name": "Rachit Taneja",
-  "title": "Computer Science Student",
-  "location": "India",
-  "bio": "Short bio here...",
-  "chatbot": [
-    { "q": "who are you", "a": "I am Rachit..." },
-    { "q": "what do you do", "a": "I build web apps and learn AI/ML." }
+  "tagline": "Aspiring full-stack engineer focused on mastering Web Development and AI.",
+  "description": "I am a first-year CSE student building strong foundations in Web Development, JavaScript, React, and AI. I am actively building projects like PromptVault, JavaScript Playground, and my personal portfolio. I also completed the McKinsey Forward Program (certificate expected December), where I learned structured problem-solving, effective communication, digital adaptability, and modern professional skills.",
+  "mckinsey_summary": "The McKinsey Forward Program trained me in five core areas: adaptable learning (APR technique, habit loops, mindset reframing), structured problem-solving (7-step hypothesis-led approach, SMART problem statements, MECE, prioritization matrices), impactful communication (EPIC framework, active listening, Pyramid Principle), well-being and collaboration (AVEC relationship model, psychological safety via REACH), and digital readiness (data literacy, technology awareness, design thinking, and agile ways of working).",
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Tailwind",
+    "Git",
+    "Prompt Engineering"
   ]
 }
