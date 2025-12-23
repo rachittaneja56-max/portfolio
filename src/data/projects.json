@@ -4,13 +4,15 @@
     "description": "A prompt management tool with per-user isolation using localStorage namespaces.",
     "tech": ["React", "Tailwind CSS", "LocalStorage"],
     "live": "https://prompt-vault-olive.vercel.app/",
-    "github": "https://github.com/rachittaneja56-max/PromptVault"
+    "github": "https://github.com/rachittaneja56-max/PromptVault",
+    "image": "src/public/projects/PromptVault.png"
   },
   {
     "title": "JavaScript Playground",
     "description": "A collection of focused JavaScript mini-projects to strengthen core concepts.",
     "tech": ["JavaScript", "HTML", "CSS"],
     "live": "https://javascript-playground-gray.vercel.app/",
-    "github": "https://github.com/rachittaneja56-max/Javascript-Playground"
+    "github": "https://github.com/rachittaneja56-max/Javascript-Playground",
+    "image": "src/public/projects/javascript-playground.png"
   }
 ]
