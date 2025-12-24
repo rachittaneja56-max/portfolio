@@ -27,7 +27,7 @@ const Projects = () => {
                   {project.description}
                 </p>
 
-                <div className="flex flex-wrap gap-2 pt-2">
+                <div className="px-4 flex flex-wrap gap-2 pt-2">
                   {project.tech.map((tech) => (
                     <span
                       key={tech}
@@ -38,7 +38,7 @@ const Projects = () => {
                   ))}
                 </div>
 
-                <div className="flex gap-6 pt-3 text-sm">
+                <div className="px-20 flex gap-6 pt-3 text-sm">
                   {project.live && (
                     <a
                       href={project.live}

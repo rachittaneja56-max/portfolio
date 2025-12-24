@@ -7,6 +7,7 @@ import Projects from './components/Projects'
 import Certificates from './components/Certification'
 import BlogPreview from './components/Blog'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,7 @@ function App() {
       <Certificates/>
       <BlogPreview/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
