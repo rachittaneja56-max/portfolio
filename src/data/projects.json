@@ -5,7 +5,7 @@
     "tech": ["React", "Tailwind CSS", "LocalStorage"],
     "live": "https://prompt-vault-olive.vercel.app/",
     "github": "https://github.com/rachittaneja56-max/PromptVault",
-    "image": "projects/PromptVault.png"
+    "image": "/projects/PromptVault.png"
   },
   {
     "title": "JavaScript Playground",
@@ -13,6 +13,6 @@
     "tech": ["JavaScript", "HTML", "CSS"],
     "live": "https://javascript-playground-gray.vercel.app/",
     "github": "https://github.com/rachittaneja56-max/Javascript-Playground",
-    "image": "projects/javascript-playground.png"
+    "image": "/projects/javascript-playground.png"
   }
 ]
