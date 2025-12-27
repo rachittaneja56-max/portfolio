@@ -8,6 +8,8 @@ import Certificates from './components/Certification'
 import BlogPreview from './components/Blog'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import FloatingAssistant from './components/ChatBubble'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +24,7 @@ function App() {
       <BlogPreview/>
       <Contact/>
       <Footer/>
+      <FloatingAssistant/>
     </>
   )
 }

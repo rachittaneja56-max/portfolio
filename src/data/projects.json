@@ -1,6 +1,6 @@
 [
   {
-    "title": "PromptVault v1",
+    "title": "PromptVault ",
     "description": "A prompt management tool with per-user isolation using localStorage namespaces.",
     "tech": ["React", "Tailwind CSS", "LocalStorage"],
     "live": "https://prompt-vault-olive.vercel.app/",
