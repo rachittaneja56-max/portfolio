@@ -4,7 +4,7 @@
     "description": "A prompt management tool with per-user isolation using localStorage namespaces.",
     "tech": ["React", "Tailwind CSS", "LocalStorage"],
     "live": "https://prompt-vault-olive.vercel.app/",
-    "github": "https://github.com/rachittaneja56-max/PromptVault",
+    "github": "https://github.com/rachittaneja56-max/Prompt-Vault",
     "image": "/projects/PromptVault.png"
   },
   {
