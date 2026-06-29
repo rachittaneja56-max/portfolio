@@ -13,13 +13,12 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0  left-0 w-full z-50 bg-black/50 backdrop-blur-md border-b border-white/10">
-      <div className="max-w-6xl mx-auto flex items-center justify-center relative px-6 py-3">
-        <div className="flex items-center gap-20">
-          <h1 className="text-white mr-48 text-lg font-semibold tracking-wide mr-">
-            Rachit
-          </h1>
+      <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
+        <h1 className="text-white text-xl font-semibold tracking-wide">
+          Rachit
+        </h1>
 
-          <ul className=" hidden md:flex items-center gap-10">
+        <ul className="hidden md:flex items-center gap-8">
             {links.map((link) => (
               <li key={link.name}>
                 <a
@@ -31,7 +30,6 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-        </div>
         <button
           className="absolute right-6 md:hidden text-white text-xl"
           onClick={() => setIsOpen(!isOpen)}

@@ -8,9 +8,13 @@ const About = () => {
     "React",
     "Tailwind CSS",
     "Git & GitHub",
-    "Prompt Engineering",
-    "Deployment (Vercel)",
-
+    "Typescript",
+    "Next.js",
+    "tRPC",
+    "Monorepo",
+    "Full Stack",
+    "Express.js",
+    "PostgreSQL",
   ];
 
   return (
@@ -19,12 +23,12 @@ const About = () => {
         <h2 className="text-3xl font-semibold">About</h2>
 
         <p className="text-gray-400 leading-relaxed">
-          I’m a first-year CS student focused on frontend engineering and AI-driven interfaces.
-          I build fast, minimal, production-ready UIs using React, JavaScript, and Tailwind.
+          I’m an aspiring full-stack engineer focused on building scalable, type-safe web applications and SaaS platforms. 
+          I specialize in React, Next.js, and TypeScript, and enjoy creating clean, production-ready architectures.
         </p>
 
         <p className="text-gray-400 leading-relaxed">
-          My current focus is on production-grade UI, API integration, and prompt engineering for smarter workflows.
+          My current focus is on full-stack development, modern APIs (like tRPC and REST), monorepo setups, and building robust authentication systems.
         </p>
 
         <div className="flex flex-wrap gap-2 mt-6">

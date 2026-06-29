@@ -1,18 +1,32 @@
 [
   {
-    "title": "PromptVault ",
-    "description": "A prompt management tool with per-user isolation using localStorage namespaces.",
-    "tech": ["React", "Tailwind CSS", "LocalStorage"],
-    "live": "https://prompt-vault-olive.vercel.app/",
-    "github": "https://github.com/rachittaneja56-max/Prompt-Vault",
-    "image": "/projects/PromptVault.png"
+    "title": "Custom OIDC Auth Provider",
+    "description": "A custom OpenID Connect authentication platform where developers can create an app, generate a client ID and client secret, configure their auth settings, and use this service as an authentication provider for their own applications.",
+    "features": [
+      "Custom OIDC authentication provider",
+      "Client ID and client secret generation",
+      "App registration flow for developers",
+      "Built for integrating auth into external apps",
+      "Production deployed",
+      "Clean developer experience"
+    ],
+    "tech": ["Next.js", "OIDC", "OAuth", "Authentication", "TypeScript", "API", "Full Stack"],
+    "live": "https://auth.rachittaneja.in/",
+    "image": "/projects/CustomAuth.png"
   },
   {
-    "title": "JavaScript Playground",
-    "description": "A collection of focused JavaScript mini-projects to strengthen core concepts.",
-    "tech": ["JavaScript", "HTML", "CSS"],
-    "live": "https://javascript-playground-gray.vercel.app/",
-    "github": "https://github.com/rachittaneja56-max/Javascript-Playground",
-    "image": "/projects/javascript-playground.png"
+    "title": "Parcha95 Form Builder",
+    "description": "A modern form builder built with a tRPC-based API and monorepo setup using Next.js. It allows users to create and manage forms with a clean full-stack architecture.",
+    "features": [
+      "Form builder platform",
+      "Built with tRPC",
+      "Monorepo architecture",
+      "Next.js frontend",
+      "Type-safe full-stack setup",
+      "Production deployed"
+    ],
+    "tech": ["Next.js", "tRPC", "TypeScript", "Monorepo", "Forms", "Full Stack", "SaaS"],
+    "live": "https://parcha95.rachittaneja.in/",
+    "image": "/projects/Parcha95.png"
   }
 ]
