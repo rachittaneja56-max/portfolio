@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ArrowDown, ArrowRight, ArrowUpRight, BookOpen, Github, Linkedin, Mail, Menu, X } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Github, Linkedin, Mail, Menu, X } from "lucide-react";
 import portrait from "./assets/Profile.jpeg";
 import resume from "./assets/resume.pdf";
 
