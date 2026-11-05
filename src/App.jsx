@@ -1,32 +1,5 @@
-import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Projects from './components/Projects'
-import Certificates from './components/Certification'
-import BlogPreview from './components/Blog'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import Landing from './Landing.jsx';
 
-
-
-function App() {
-
-
-  return (
-    <>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Projects/>
-      <Certificates/>
-      <BlogPreview/>
-      <Contact/>
-      <Footer/>
-
-    </>
-  )
+export default function App() {
+  return <Landing />;
 }
-
-export default App
