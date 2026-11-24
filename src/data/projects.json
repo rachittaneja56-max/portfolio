@@ -1,56 +1,8 @@
 [
   {
-    "title": "Aethra — AI Email & Calendar Workspace",
-    "year": "2026",
-    "description": "An AI-assisted Gmail and Google Calendar workspace that helps you read, triage, search, draft and send email while surfacing calendar context and meeting prep. Risky agent actions pause for human approval.",
-    "features": [
-      "AI triage, TL;DR summaries and reply drafting",
-      "Meeting-prep briefs built from calendar and related email",
-      "Human-in-the-loop approval for sensitive agent actions",
-      "Full-text and vector-style email search",
-      "Privacy rules for sensitive senders and domains",
-      "Public OpenAPI spec with Scalar API docs"
-    ],
-    "tech": [
-      "Next.js",
-      "TypeScript",
-      "tRPC",
-      "Clerk",
-      "Redis",
-      "OpenAPI",
-      "AI Agents"
-    ],
-    "live": "https://aethra.rachittaneja.in/",
-    "github": "https://github.com/rachittaneja56-max/superhumanclone",
-    "image": "/projects/Aethra.png"
-  },
-  {
-    "title": "VoteZap — Real-Time Polls",
-    "year": "2026",
-    "description": "A production-grade poll platform where creators build anonymous or authenticated polls, watch votes arrive live over WebSockets and publish final results publicly.",
-    "features": [
-      "Live analytics over Socket.IO",
-      "Anonymous or sign-in-required response modes",
-      "Duplicate-vote prevention with fingerprinting",
-      "Dual auth: Google OAuth and my own OIDC provider (PKCE)",
-      "Helmet, CORS and rate limiting"
-    ],
-    "tech": [
-      "React",
-      "TypeScript",
-      "Express 5",
-      "MongoDB",
-      "Socket.IO",
-      "OIDC"
-    ],
-    "live": "https://votezap.rachittaneja.in/",
-    "github": "https://github.com/rachittaneja56-max/VoteZap",
-    "image": "/projects/VoteZap.png"
-  },
-  {
     "title": "Custom OIDC Auth Provider",
     "year": "2026",
-    "description": "My own OpenID Connect / OAuth 2.0 identity provider. Developers register an app, get a client ID and secret, configure redirect URIs and sign users into their apps with it. VoteZap, 100,000 Checkboxes and the Live Location Tracker log in through it.",
+    "description": "My own OpenID Connect / OAuth 2.0 identity provider. Developers register an app, get a client ID and secret, configure redirect URIs and sign users into their apps with it.",
     "features": [
       "Authorization Code flow with PKCE",
       "OIDC discovery and JWKS-signed ID tokens",

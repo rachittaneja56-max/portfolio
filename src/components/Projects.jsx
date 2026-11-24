@@ -1,6 +1,5 @@
 import projects from "../data/projects.json";
 import research from "../data/research.json";
-import moreProjects from "../data/more-projects.json";
 
 const linkProps = { target: "_blank", rel: "noopener noreferrer" };
 
@@ -109,32 +108,6 @@ const ResearchCard = ({ item }) => (
     </ul>
 
     <TechPills items={item.tech} />
-
-    <a
-      href={item.github}
-      {...linkProps}
-      className="self-start px-5 py-2.5 border border-white/20 rounded-xl hover:bg-white/10 transition-colors font-medium text-white"
-    >
-      Read the code ↗
-    </a>
-  </article>
-);
-
-const SmallProject = ({ project }) => (
-  <article className="border border-white/10 rounded-2xl p-5 bg-white/[0.02] flex flex-col gap-3">
-    <h3 className="text-lg font-semibold">{project.title}</h3>
-    <p className="text-gray-400 text-sm leading-relaxed flex-1">{project.description}</p>
-    <p className="text-xs text-gray-500">{project.tech.join(" · ")}</p>
-    <div className="flex gap-4 text-sm">
-      {project.live && (
-        <a href={project.live} {...linkProps} className="text-white hover:underline">
-          Live ↗
-        </a>
-      )}
-      <a href={project.github} {...linkProps} className="text-gray-300 hover:text-white hover:underline">
-        Code ↗
-      </a>
-    </div>
   </article>
 );
 
@@ -152,10 +125,10 @@ const Projects = () => {
         </div>
 
         <div id="research" className="mt-28 scroll-mt-24">
-          <h2 className="text-4xl font-semibold mb-4">Research & Hackathons</h2>
+          <h2 className="text-4xl font-semibold mb-4">Research · Smart India Hackathon</h2>
           <p className="text-gray-400 mb-12 leading-relaxed">
-            Prototypes built for Smart India Hackathon and other hackathon problem statements.
-            They were demo deployments and are not live anymore, but the code and design docs are open.
+            Prototypes I built for Smart India Hackathon problem statements. They were demo
+            deployments and are not live anymore.
           </p>
 
           <div className="space-y-8">
@@ -163,22 +136,6 @@ const Projects = () => {
               <ResearchCard key={item.title} item={item} />
             ))}
           </div>
-        </div>
-
-        <div className="mt-28">
-          <h2 className="text-3xl font-semibold mb-10">More builds</h2>
-          <div className="grid sm:grid-cols-2 gap-5">
-            {moreProjects.map((project) => (
-              <SmallProject key={project.title} project={project} />
-            ))}
-          </div>
-          <a
-            href="https://github.com/rachittaneja56-max"
-            {...linkProps}
-            className="inline-block mt-8 text-gray-300 hover:text-white hover:underline"
-          >
-            Everything else on GitHub ↗
-          </a>
         </div>
       </div>
     </section>
