@@ -1,0 +1,41 @@
+[
+  {
+    "title": "AxiomWeave",
+    "tag": "Smart India Hackathon",
+    "description": "A source-grounded content transformation workspace. It turns one authoritative source and a communication brief into audience-ready artifacts, keeping every output traceable to the source it came from.",
+    "points": [
+      "Seven artifact types: executive summary, LinkedIn and X posts, formal advisory, presentation, infographic and video package",
+      "Versioned source packs with immutable context manifests per generation job",
+      "Source quotations, lineage validation and discrepancy review",
+      "Confirm-before-acting action plans and audit records"
+    ],
+    "tech": ["FastAPI", "SQLAlchemy", "PostgreSQL", "React", "LLMs", "FFmpeg"],
+    "github": "https://github.com/rachittaneja56-max/AxiomWeave"
+  },
+  {
+    "title": "EvidenceGate Replay",
+    "tag": "SIH · PS 26145",
+    "description": "A passive, evidence-safe packet replay component for network-security streaming experiments. It reads PCAP/PCAPNG captures, preserves event time and order, and streams packets with backpressure.",
+    "points": [
+      "Classic PCAP and PCAPNG reading at any replay speed",
+      "Exact event-time preservation and timestamp regression reports",
+      "Typed factual TCP/DNS observations and TTL-bounded keyed state",
+      "SHA-256 provenance manifests and component benchmarks"
+    ],
+    "tech": ["Python", "asyncio", "PCAP", "Networking"],
+    "github": "https://github.com/rachittaneja56-max/network_replayer"
+  },
+  {
+    "title": "KrishiMitra",
+    "tag": "Hackathon",
+    "description": "An AI crop-advisory assistant. It combines plant-disease image classification with farm and field context, weather, soil and mandi-price data, and explains advice to farmers in plain language.",
+    "points": [
+      "TensorFlow.js disease classifier across 38 PlantVillage classes",
+      "Weather forecasts and alerts proxied server-side",
+      "AGMARKNET mandi prices from data.gov.in",
+      "Reviewed safety rules and follow-up monitoring"
+    ],
+    "tech": ["React", "TypeScript", "Express 5", "TensorFlow.js", "OpenAI"],
+    "github": "https://github.com/rachittaneja56-max/Krishimitra"
+  }
+]

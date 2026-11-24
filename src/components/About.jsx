@@ -15,6 +15,12 @@ const About = () => {
     "Full Stack",
     "Express.js",
     "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "WebSockets",
+    "OIDC / OAuth 2.0",
+    "Python",
+    "FastAPI",
   ];
 
   return (

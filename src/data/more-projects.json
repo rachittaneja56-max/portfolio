@@ -1,0 +1,58 @@
+[
+  {
+    "title": "OpenLog",
+    "description": "A learn-in-public tracker: one update a day, a shareable public page, streaks and a heatmap. No account needed to start a log.",
+    "tech": [
+      "React",
+      "Express",
+      "PostgreSQL",
+      "Drizzle",
+      "pnpm monorepo"
+    ],
+    "github": "https://github.com/rachittaneja56-max/OpenLog"
+  },
+  {
+    "title": "100,000 Checkboxes",
+    "description": "A shared real-time checkbox grid: Redis bitmap state, Redis Pub/Sub fan-out across instances, a hand-written rate limiter and OIDC login.",
+    "tech": [
+      "Node.js",
+      "Socket.IO",
+      "Redis",
+      "OIDC"
+    ],
+    "github": "https://github.com/rachittaneja56-max/Checkbox-website-using-websockets"
+  },
+  {
+    "title": "Live Location Tracker",
+    "description": "Real-time location sharing on a map, with Apache Kafka handling high-frequency updates and OIDC login.",
+    "tech": [
+      "Node.js",
+      "Kafka",
+      "Socket.IO",
+      "Leaflet"
+    ],
+    "github": "https://github.com/rachittaneja56-max/Live-Location-tracker-map"
+  },
+  {
+    "title": "Personal Dev Knowledge Graph",
+    "description": "A personal developer knowledge graph that links DSA, projects and learnings, with embeddings, spaced review and suggestion-only AI agents.",
+    "tech": [
+      "FastAPI",
+      "React",
+      "pgvector",
+      "Better Auth"
+    ],
+    "github": "https://github.com/rachittaneja56-max/WHolistic-tracker"
+  },
+  {
+    "title": "Cricket Monster",
+    "description": "A mobile-first cricket fan app frontend: daily quiz, match picks, leaderboards and a fan feed.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "live": "https://cricket-monster.vercel.app/",
+    "github": "https://github.com/rachittaneja56-max/cricket-monster"
+  }
+]

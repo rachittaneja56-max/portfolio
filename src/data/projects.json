@@ -1,32 +1,110 @@
 [
   {
-    "title": "Custom OIDC Auth Provider",
-    "description": "A custom OpenID Connect authentication platform where developers can create an app, generate a client ID and client secret, configure their auth settings, and use this service as an authentication provider for their own applications.",
+    "title": "Aethra — AI Email & Calendar Workspace",
+    "year": "2026",
+    "description": "An AI-assisted Gmail and Google Calendar workspace that helps you read, triage, search, draft and send email while surfacing calendar context and meeting prep. Risky agent actions pause for human approval.",
     "features": [
-      "Custom OIDC authentication provider",
-      "Client ID and client secret generation",
-      "App registration flow for developers",
-      "Built for integrating auth into external apps",
-      "Production deployed",
-      "Clean developer experience"
+      "AI triage, TL;DR summaries and reply drafting",
+      "Meeting-prep briefs built from calendar and related email",
+      "Human-in-the-loop approval for sensitive agent actions",
+      "Full-text and vector-style email search",
+      "Privacy rules for sensitive senders and domains",
+      "Public OpenAPI spec with Scalar API docs"
     ],
-    "tech": ["Next.js", "OIDC", "OAuth", "Authentication", "TypeScript", "API", "Full Stack"],
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "tRPC",
+      "Clerk",
+      "Redis",
+      "OpenAPI",
+      "AI Agents"
+    ],
+    "live": "https://aethra.rachittaneja.in/",
+    "github": "https://github.com/rachittaneja56-max/superhumanclone",
+    "image": "/projects/Aethra.png"
+  },
+  {
+    "title": "VoteZap — Real-Time Polls",
+    "year": "2026",
+    "description": "A production-grade poll platform where creators build anonymous or authenticated polls, watch votes arrive live over WebSockets and publish final results publicly.",
+    "features": [
+      "Live analytics over Socket.IO",
+      "Anonymous or sign-in-required response modes",
+      "Duplicate-vote prevention with fingerprinting",
+      "Dual auth: Google OAuth and my own OIDC provider (PKCE)",
+      "Helmet, CORS and rate limiting"
+    ],
+    "tech": [
+      "React",
+      "TypeScript",
+      "Express 5",
+      "MongoDB",
+      "Socket.IO",
+      "OIDC"
+    ],
+    "live": "https://votezap.rachittaneja.in/",
+    "github": "https://github.com/rachittaneja56-max/VoteZap",
+    "image": "/projects/VoteZap.png"
+  },
+  {
+    "title": "Custom OIDC Auth Provider",
+    "year": "2026",
+    "description": "My own OpenID Connect / OAuth 2.0 identity provider. Developers register an app, get a client ID and secret, configure redirect URIs and sign users into their apps with it. VoteZap, 100,000 Checkboxes and the Live Location Tracker log in through it.",
+    "features": [
+      "Authorization Code flow with PKCE",
+      "OIDC discovery and JWKS-signed ID tokens",
+      "Client ID / secret generation and app registration",
+      "Used as the login for several of my other projects"
+    ],
+    "tech": [
+      "Next.js",
+      "TypeScript",
+      "OIDC",
+      "OAuth 2.0",
+      "JWT"
+    ],
     "live": "https://auth.rachittaneja.in/",
+    "github": "https://github.com/rachittaneja56-max/MyAuth",
     "image": "/projects/CustomAuth.png"
   },
   {
     "title": "Parcha95 Form Builder",
-    "description": "A modern form builder built with a tRPC-based API and monorepo setup using Next.js. It allows users to create and manage forms with a clean full-stack architecture.",
+    "year": "2026",
+    "description": "A modern form builder built as a type-safe monorepo with a tRPC API and a Next.js frontend for creating and managing forms.",
     "features": [
-      "Form builder platform",
-      "Built with tRPC",
-      "Monorepo architecture",
-      "Next.js frontend",
-      "Type-safe full-stack setup",
-      "Production deployed"
+      "Form creation and management",
+      "End-to-end type safety with tRPC",
+      "Monorepo architecture"
     ],
-    "tech": ["Next.js", "tRPC", "TypeScript", "Monorepo", "Forms", "Full Stack", "SaaS"],
+    "tech": [
+      "Next.js",
+      "tRPC",
+      "TypeScript",
+      "Monorepo"
+    ],
     "live": "https://parcha95.rachittaneja.in/",
+    "github": "https://github.com/rachittaneja56-max/Parcha",
     "image": "/projects/Parcha95.png"
+  },
+  {
+    "title": "KulhadCSS",
+    "year": "2026",
+    "description": "A utility-first CSS framework with Hindi/Hinglish class names, published on npm. Classes are evaluated at runtime in vanilla JavaScript, so there is no build step.",
+    "features": [
+      "Desi class names like doori-3 and likhai-vazan-bhaari",
+      "Dynamic values evaluated from class names",
+      "MutationObserver styles new elements automatically",
+      "Works with plain HTML and React"
+    ],
+    "tech": [
+      "JavaScript",
+      "CSS",
+      "npm package",
+      "DOM APIs"
+    ],
+    "live": "https://kulhad-css.vercel.app/",
+    "github": "https://github.com/rachittaneja56-max/KulhadCss",
+    "image": "/projects/KulhadCSS.png"
   }
 ]
